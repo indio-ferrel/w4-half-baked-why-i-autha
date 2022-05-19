@@ -1,1 +1,40 @@
-/* add home page styles here */
+header {
+    background-color: grey;
+}
+
+body {
+    background-color: black;
+    color: orange;
+}
+
+.auth-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.leftnright {
+    /* m b p */
+    margin: 20px;
+    border: 2px darkblue dashed;
+    padding: 30px;
+
+    flex-grow: 1;
+    text-align: justify;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 40%;
+}
+
+label, button {
+    margin: 20px;
+}
+
+footer {
+    color: black;
+}

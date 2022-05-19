@@ -10,10 +10,10 @@ Use the [this template](https://github.com/alchemycodelab/half-baked-web-01-why-
 
 ### Learning Objectives
 
--   Register new users on Supabase using the Javascript library
--   Authenticate existing users on Supabase using the Javascript library
--   Manage protected and unprotected pages by checking if a user is logged in
--   Use `location` object to redirect users
+- Register new users on Supabase using the Javascript library
+- Authenticate existing users on Supabase using the Javascript library
+- Manage protected and unprotected pages by checking if a user is logged in
+- Use `location` object to redirect users
 
 ### Description
 

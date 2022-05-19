@@ -13,7 +13,6 @@ signUpForm.addEventListener('submit', async (e) => {
     const data = new FormData(signUpForm);
     const user = await signupUser(data.get('email'), data.get('password'));
     console.log({ email: data.get('email'), password: data.get('password') });
-    const user = await signupUser(data.get('email'), data.get('password'));
     // redirect on success
     if (user) {
         location.replace('/other-page');
@@ -26,7 +25,6 @@ signInForm.addEventListener('submit', async (e) => {
     const data = new FormData(signInForm);
     const user = await signInUser(data.get('email'), data.get('password'));
     console.log({ email: data.get('email'), password: data.get('password') });
-    const user = await signupUser(data.get('email'), data.get('password'));
     // redirect on success
     if (user) {
         location.replace('/other-page');
